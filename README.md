@@ -10,8 +10,7 @@ The build_and_push.sh script can build and push some or all images:
 build_and_push.sh - Build and push application base images
 
 Usage:
-    ./build_and_push.sh <docker_registry> [image] [version]
+    ./build_and_push.sh <docker_registry> [version]
 
-If just the image is passed all versions under that image will be build and pushed
-If no image nor version is passed the script will build and push all available Docker images
+If no version is passed the script will build and push all available Docker images
 ```
